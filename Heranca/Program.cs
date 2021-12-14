@@ -12,37 +12,37 @@ namespace Heranca
         {
             #region Parte 1
 
-            //Carro c = new Carro();
-            //Bicileta b = new Bicileta();
-            //Caminhonete cam = new Caminhonete();
+            Carro c = new Carro();
+            Bicileta b = new Bicileta();
+            Caminhonete cam = new Caminhonete();
 
-            //b.Marca = "Shimanu";
-            //b.Cor = "Verde";
-            //b.Pedalar();
+            b.Marca = "Shimanu";
+            b.Cor = "Verde";
+            b.Pedalar();
 
-            //c.Marca = "Hyundai";
-            //c.Cor = "Preto";
-            //c.LigarMotor();
+            c.Marca = "Hyundai";
+            c.Cor = "Preto";
+            c.LigarMotor();
 
-            //cam.Marca = "Toyota";
-            //cam.Cor = "Vermelha";
-            //cam.LigarMotor();
+            cam.Marca = "Toyota";
+            cam.Cor = "Vermelha";
+            cam.LigarMotor();
 
-            //Console.WriteLine("A bike é " + b.Cor + " e a marca é " + b.Marca);
-            //Console.WriteLine("O carro é " + c.Cor +" e a marca é " + c.Marca);
-            //Console.WriteLine("A caminhote é " + cam.Cor + " e a marca é " + cam.Marca);
+            Console.WriteLine("A bike é " + b.Cor + " e a marca é " + b.Marca);
+            Console.WriteLine("O carro é " + c.Cor +" e a marca é " + c.Marca);
+            Console.WriteLine("A caminhote é " + cam.Cor + " e a marca é " + cam.Marca);
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
-            //b.Acelerar();
-            //c.Acelerar();
-            //cam.Acelerar();
+            b.Acelerar();
+            c.Acelerar();
+            cam.Acelerar();
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
-            //b.Parar();
-            //c.Parar();
-            //cam.Parar();
+            b.Parar();
+            c.Parar();
+            cam.Parar();
 
             #endregion
 
