@@ -16,7 +16,7 @@ namespace Classes_Objetos
         // Métodos
         public void exibir()
         {
-            Console.WriteLine("Este é o nosso usuário " + id + " se se chama " + nome);
+            Console.WriteLine("Este é o nosso usuário " + id + " se chama " + nome);
         }
     }
 }
